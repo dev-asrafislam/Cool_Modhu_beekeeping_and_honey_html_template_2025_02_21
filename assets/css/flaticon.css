@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../font/flaticon.ttf?753cc190db90b1a0c875f2887fcbf2c3") format("truetype"),
+url("../font/flaticon.woff?753cc190db90b1a0c875f2887fcbf2c3") format("woff"),
+url("../font/flaticon.woff2?753cc190db90b1a0c875f2887fcbf2c3") format("woff2"),
+url("../font/flaticon.eot?753cc190db90b1a0c875f2887fcbf2c3#iefix") format("embedded-opentype"),
+url("../font/flaticon.svg?753cc190db90b1a0c875f2887fcbf2c3#flaticon") format("svg");
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-add:before {
+    content: "\f101";
+}
+.flaticon-google-plus-logo:before {
+    content: "\f102";
+}
+.flaticon-skype:before {
+    content: "\f103";
+}
